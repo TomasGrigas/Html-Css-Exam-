@@ -1,74 +1,12 @@
 body{
-    position: relative;
     width: 428px;
     height: 3300px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
 }
-@media only screen and (min-width: 1200px) {
-    body {
-        position: relative;
-        width: 100%;
-        height: 3300px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
-        border-radius: 16px;   
-        padding: px;
-    }
-  }
-header{
-    position: absolute;
-    width: 364px;
-    height: 36px; 
-}
-.navigation{
-    display:none;
-}
-@media only screen and (min-width: 1200px) {
-    .menu{
-        display: none;
-    }
-    .navigation{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 0px;
-        gap: 28px;
-        position: absolute;
-        width: 367px;
-        height: 20px;
-        left: 1040px;
-        top: 40px;
-    }
-}
-.logo {
-    position: absolute;
-    width: 198px;
-    height: 36px;
-    left: 22px;
-    top: 32px;
-}
-.menu {
-    position: absolute;
-    width: 24px;
-    height: 22px;
-    left: 372px;
-    top: 41px;
-}
-a{
-    width: 82px;
-    height: 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
-    color: #555555;
-    text-decoration: none;
-
-}
-.signup{
-    color: #FF3998;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
 }
