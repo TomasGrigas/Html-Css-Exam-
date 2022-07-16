@@ -66,3 +66,46 @@ button {
     border-width: 5px;
     
 }
+.p1{
+    
+    padding: 20px 32px;
+    width: 364px;
+    height: 96px;
+    left: 32px;
+    top: 760px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-end;
+    color: #111111;
+}
+.p2{
+    padding: 32px 32px;
+    width: 364px;
+    height: 60px;
+    left: 32px;
+    top: 872px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #111111;
+}
+.companies{
+    margin: 32px 32px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;   
+}
+.section2{
+    background-image: url(assets/background.svg);
+    width: 428px;
+    height: 326px;
+    border-radius: -20%;
+}
+.ntfs{
+    display: flex;
+    overflow-x: auto;
+}
