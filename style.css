@@ -109,3 +109,85 @@ button {
     display: flex;
     overflow-x: auto;
 }
+.section2{
+    background-image: url(assets/background.svg);
+    width: 428px;
+    height: 326px;
+    border-radius: -20%;
+}
+.ntfs{
+    display: flex;
+    overflow-x: auto;
+}
+.div2 {
+    margin: 0px 32px;
+    width: 290px;
+    height: 400px;
+    border-radius: 16px;
+    background-color: #EEEEEE;
+    }
+.gloop {
+    margin:20px 20px 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FF8139;
+    }
+.bid{  
+    margin:20px 20px 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #777777;
+}
+.purple{
+    margin:5px 10px 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #111111;
+}
+
+.price{
+    margin:5px 10px 5px 1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #111111;
+}
+.numbers{
+    margin:5px 10px 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+.date{
+    margin:5px 10px 5px 1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+.diamond{
+    position: relative;
+    left: 25px;
+}
+.firstrow{
+    display:flex;
+    justify-content: space-between;
+ }
+.secondrow{
+    display:flex;
+    justify-content: space-between;  
+ }
+ .thirdrow{
+    display:flex;
+    justify-content: space-between;
+ }
