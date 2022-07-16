@@ -396,8 +396,8 @@ button {
     position: absolute;
     width: 60%;
     height: 65%;
-    top: 2080px;
-    left:200px; 
+    top: 2040px;
+    left:205px; 
 }
 @media only screen and (min-width: 1440px) {
     .green-woman{
