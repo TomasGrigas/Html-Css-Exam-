@@ -191,3 +191,22 @@ button {
     display:flex;
     justify-content: space-between;
  }
+ .line{
+    width: 428px;
+    border-top: 2px solid #cccccc;
+    margin: 80px 0px;
+    padding: 60px 0px 0px 0px;
+    }
+    .green-woman{
+        position: absolute;
+        width: 60%;
+        height: 65%;
+        top: 2115px;
+        left:200px;
+    }
+ .line2{
+        width: 428px;
+        border-top: 2px solid #cccccc;
+        margin: 10px 0px;
+        padding: 60px 0px 0px 0px;
+        }
